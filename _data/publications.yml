@@ -2,12 +2,12 @@
 refereed:
   pubs:
   - title: Meeting of Events and Evidence on the Map
-      authors: Mehdi Akbarian-Rastaghi, Behshid Behkamal and Asef Pourmasoumi
-      year: 2020
-      month: August
-      abbrv: KDD
-      conference-full: "KDD ACM"
-      location: London, England
+    authors: Mehdi Akbarian-Rastaghi, Behshid Behkamal and Asef Pourmasoumi
+    year: 2020
+    month: August
+    abbrv: KDD
+    conference-full: "KDD ACM"
+    location: London, England
 
 # workshops:
 #   pubs:
