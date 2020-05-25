@@ -127,6 +127,7 @@ code.highlighter-rouge {
   background-color: $dark-blue-bg;
   .navbar-item, .navbar-link {
     color: #7e97ad;
+    min-width: 185px;
     .topbar-item {
       border-bottom: solid 2px transparent;
     }
