@@ -1,0 +1,479 @@
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="slogan">
+          I'm a <span class="highlight-anim"><span class="highlight__inner-anim">Student and TA</span></span> at <a href="https://www.cmu.edu/">the University of Alberta</a>,
+          <br>in the <a href="https://www.cs.cmu.edu/">Department of Computer Science</a>, and also founder of <a href="http://sakku.cloud/En">SAKKU Cloud Platform</a>.
+        </div>
+        <div class="news">
+          <b class="slogan">Formerly...</b>
+          <br>I was a full-time software engineer at <a href="http://fanap.ir">Fanap Co.</a>, where I worked with the titles of Technical Lead in Sakku Cloud Platform and PodSpace Cloud Storage and also, Product Owner of SAKKU.
+        </div>
+      </div>
+</section>
+
+<svg height="0" width="0">
+  <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#e052a0;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#f15d40;stop-opacity:1" />
+  </linearGradient>
+</svg>
+
+<div class="lighter-blue-bg-bar">
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-one-fifth">
+          <div id="research" class="at-a-glance-header">
+            <i class="fas fa-flask"></i>
+            Research
+          </div>
+        </div>
+        <div class="column content research">
+          <p>
+            I'm interested in various flavors of distributed and concurrent
+            computation:
+          </p>
+          <ul>
+            <li>Sofware Engineering,</li>
+            <li>Data-intensive Systems,</li>
+            <li>Cloud Computing</li>
+          </ul>
+          <p>
+            My principal research interests are in the area of <b class="white"><i>Software Engineering</i></b>, <b class="white"><i>Data Mining</i></b>, and <b class="white"><i>AI-Based</i></b> Applications. 
+            While a wide range of operations could be done in each one of these fields, as a bachelor student, 
+            I did not have enough time to get highly deep in each of them. So, I tried some disciplines.
+          </p>
+
+          <p>
+            Being a Software Engineering trainee in one of the top universities of Iran, encouraged me to practice 
+            in different sections of Software Engineering. I have done some studies in Cloud Computing inclouding 
+            Workflow Scheduling and Resource Allocation with Meta-Heuristic methods at the Cloud Computing Lab 
+            under the Supv, of Dr. Abrishami. Besides, as a professional technical lead and software engineer 
+            in Fanap Co., I am working on a cloud platform and cloud storage which made me investigate in distributed systems. 
+            Additionally, I have been a teacher assistant in the software engineering lab for more than a year researching 
+            open-source software and games' architecture and design under the Supv, of Dr. Rasoolzadegan.
+
+          </p>
+
+          <p>
+            Data mining is the next field on my list. Working with Dr. Behshid Behkamal on geospatial data, 
+            National Post's data, and passing the Data Mining course interested me in this field. 
+            I worked on geo-location data for almost 2 years as a member of WTLab with Dr. Pourmasoumi 
+            and Dr. Behkamal. During this time, I worked as a part of the team working on an industrial project 
+            for  National Post company. This project proposed to predict the parcel delivery time based on 
+            the current system and find the bottlenecks in the current system with process mining techniques.
+          </p>
+
+          <p>
+            Finally, Using Artificial Intelligence and Machine-Learning approaches to automate jobs in software development 
+            and design steps is very interesting for me. As an example, to improve platform cluster utilization, 
+            my colleagues and I in Fanap Co. have done a lot of research to employ ML methods to change the cluster 
+            size base on usage prediction.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-one-fifth">
+        <div class="at-a-glance-header">
+          <i class="fas fa-file-alt"></i>
+          Publications
+        </div>
+      </div>
+      <div class="column">
+        <div class="publication-head">Recent Work</div>
+        <table class="table publications">
+          <tbody>
+            {% for pub in site.data.publications.refereed.pubs limit:3 %}
+              <tr>
+                <td>
+                  <div class="pub-title">{{ pub.title }}</div>
+                  <div class="pub-authors">{{ pub.authors }}</div>
+                  <div class="pub-conf-journal-name">{% if pub.conference-full %}{{ pub.conference-full }}{% elsif pub.journal %}{{ pub.journal }}{% endif %}</div>
+                  <div class="pub-meta">
+                    {% if pub.pdf %}<a href="{{ pub.pdf }}"><span class="tag pub-tag">PDF</span></a>{% endif %}
+                    {% if pub.acmdl %}<a href="{{ pub.acmdl }}"><span class="tag pub-tag">ACM DL</span></a>{% endif %}
+                    {% if pub.cambridge %}<a href="{{ pub.cambridge }}"><span class="tag pub-tag">Cambridge U. Press</span></a>{% endif %}
+                    {% if pub.scidirect %}<a href="{{ pub.scidirect }}"><span class="tag pub-tag">Science Direct</span></a>{% endif %}
+                  </div>
+                </td>
+                <td nowrap><div class="pub-conf-abbrv">{{ pub.abbrv }} {{ pub.year }}</div></td>
+              </tr>
+              {{ item }}
+            {% endfor %}
+          </tbody>
+        </table>
+        <a class="button publication-button" href="{{ site.baseurl }}/publications.html">Full Publication List</a>
+      </div>
+      <div class="column">
+        <div class="publication-head">SAKKU Blog Posts</div>
+        <img style="height: 200px;" src="/resources/img/sakku-blog.jpg">
+        <div class="book-title">I gather and share some new information and news in the area Cloud Computing in Sakku blog for persian readers!</div>
+        <div class="book-authors">Cloud Gaming: What do we know about GeForce Now?</div>
+        <div class="book-text">GeForce NOW is NVIDIA’s cloud-based game streaming service, delivering real-time gameplay straight from the cloud to your laptop, desktop, Mac, SHIELD TV, or Android device. Connect to your store accounts and stream your own library of games, or play your favorite free-to-play games. With cloud saves for supported games, you can pick up your game where you left off, on any supported device, wherever you are.</div>
+        <div class="book-oa"><a href="https://blog.sakku.cloud"><i class="fab fa-web"></i>&nbsp;&nbsp;Read more</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="lighter-blue-bg-bar">
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-one-fifth"></div>
+        <!-- <i class="em em-family"></i>  -->
+        <div class="column">
+          <div class="at-a-glance-header">
+            <i class="fas fa-code"></i>
+            Open Source
+          </div>
+          <div class="columns">
+            <div class="column is-one-fifth">
+              <!-- <img style="height: 60px; width: 60px" src="/resources/img/weird-scala3.png"> -->
+              <div id="scala"></div>
+            </div>
+            <div class="column content work">
+              <p>
+                Most all of my work is available in my  <a href="https://github.com/makbn">Github repositories</a>.
+              </a>
+              <p>Member of the Scala team since 2011.</p>
+              <p>I've worked on: Futures and Promises, Spores, Pickling, the Scala standard library, documentation, and a compiler fix here or there.</p>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column content work">
+              <p>I co-founded the <a href="http://scala.epfl.ch">Scala Center</a>.</p>
+              <p>
+                Our goal: Do The Right Thing<sup><i class="far fa-trademark"></i></sup> for open source Scala and its community.
+              <!-- <br>Dramatic consequences of the open source revolution. In short, we're building our businesses and research on a <i>hollow middle</i>. <a href="https://speakerdeck.com/heathermiller/the-dramatic-consequences-of-the-open-source-revolution">Slides</a> -->
+              <!-- <br>Scala Center is attempting to reverse this trend. Sustainability for successul community open source foundations like Scala. -->
+            </div>
+            <div class="column is-one-fifth">
+              <div id="scalacenter"></div>
+              <!-- <img style="height: 60px;" src="/resources/img/scalacenter-spiral.png"> -->
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <!-- <i class="em em-factory"></i>  -->
+          <div class="at-a-glance-header">
+            <i class="fas fa-industry-alt"></i>
+            Academia ↔ Industry
+          </div>
+          <div class="columns">
+            <div class="column content work">
+                <p>I created the <a href="https://sakku.cloud/En">SAKKU Cloud Platform</a> with an incredible team in Fanap Co.</p>
+                <p>Our goal: Save Your Time and Costs of Your Server. Focus on your goal, deploy and develop without worries.</p>
+                <p>Sakku is a container based cloud platform. You can create containers from your apps and deploy them on Sakku. After that, Sakku will handle all of your application requirements. error control, monitoring, back up and resource management are the most important features of Sakku.</p>
+            </div>
+            <div class="column is-one-third">
+              <img style="height: 100px;" src="/resources/img/sakku.png">
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-one-fifth">
+        <div id="skills" class="sec-head">
+          <span class="fa-layers fa-fw">
+            <i class="fas fa-hand-paper" style="color:rgba(121, 152, 175, 0.5);"></i>
+            <i id="service-heart" class="fa-inverse fas fa-heart" data-fa-transform="shrink-8 down-2 right-1"></i>
+          </span>
+          Skills
+        </div>
+      </div>
+      <div class="column">
+        <span class="subsec-head">Programming languages</span>
+        <table class="table service-table">
+          <tbody>
+            <tr>
+              <th>Java
+                <div class="abbrv">I am highly experianced in Java language and uding it for more than 8 years.</div>
+              </th>
+              <td nowrap><a href="https://github.com/makbn?tab=repositories&q=&type=&language=java">Since 2012</a></td>
+            </tr>
+            <tr>
+              <th>
+                C++
+                <div class="abbrv">Although I used to code with cpp before Java, I got my certification from Coursera recently to refresh my knowledg.</div>
+              </th>
+              <td nowrap><a href="https://github.com/makbn?tab=repositories&q=&type=&language=c%2B%2B">2009-2012, 2020</a></td>
+            </tr>
+            <tr>
+              <th>Python
+                <div class="abbrv">Mostly I use Python when I'm sick and tired of using semicolon! And yes it also useful for some data analysis stuff!</div>
+              </th>
+              <td nowrap><a href="https://github.com/makbn?tab=repositories&q=&type=&language=python">Public projects</a></td>
+            </tr>
+            <tr>
+              <th>
+                Scala
+                <div class="abbrv">If you like Scala, we have a lot to talk about!</div>
+              </th>
+              <td nowrap><a href="https://2016.ecoop.org/track/PMLDC-2016">Since 2017</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <span class="subsec-head">Frameworks & Tools</span>
+        <table class="table service-table">
+          <tbody>
+            <tr>
+              <th>
+                Apache Mesos
+                <div class="abbrv">I Use Apache Mesos as the heart of SAKKU</div>
+              </th>
+              <td nowrap><a href="https://github.com/sakkuCloud">Since 2019</a></td>
+            </tr>
+            <tr>
+              <th>
+                Marathon
+                <div class="abbrv">A simple nice extendable task  scheduler!</div>
+              </th>
+              <td nowrap><a href="https://mesosphere.github.io/marathon/">Project page</a></td>
+            </tr>
+
+            <tr>
+              <th>
+                Docker
+                <div class="abbrv">It's my daily hobby!</div>
+              </th>
+              <td nowrap><a href="https://mesosphere.github.io/marathon/"></a></td>
+            </tr>
+          </tbody>
+        </table>
+    
+      </div>
+      <div class="column">
+        <span class="subsec-head">Program Committee Member</span>
+        <table class="table service-table">
+          <tbody>
+            <tr>
+              <th>
+                POPL
+                <div class="abbrv">Symposium on Principles of Programming Languages</div>
+              </th>
+              <td nowrap><a href="https://popl19.sigplan.org/">2019</a></td>
+            </tr>
+            <tr>
+              <th>
+                ICFP
+                <div class="abbrv">International Conference on Functional Programming</div>
+              </th>
+              <td nowrap><a href="https://conf.researchr.org/home/icfp-2018">2018</a></td>
+            </tr>
+            <tr>
+              <th>
+                OOPSLA
+                <div class="abbrv">Object-Oriented Programming, Systems, Languages & Applications</div>
+              </th>
+              <td nowrap><a href="https://2017.splashcon.org/track/splash-2017-OOPSLA">2017</a>, <a href="https://conf.researchr.org/track/splash-2019/splash-2019-oopsla">2019</a></td>
+            </tr>
+            <tr>
+              <th>
+                ECOOP
+                <div class="abbrv">European Conference on Object-Oriented Programming</div>
+              </th>
+              <td nowrap><a href="https://2019.ecoop.org/">2019</a></td>
+            </tr>
+            <tr>
+              <th>
+                SPLASH Onward!
+                <div class="abbrv">International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software</div>
+              </th>
+              <td nowrap><a href="https://conf.researchr.org/track/splash-2018/splash-2018-OOPSLA">2018</a>, <a href="https://2019.splashcon.org/track/splash-2019-Onward-Essays">2019</a></td>
+            </tr>
+            <tr>
+              <th>
+                TFP
+                <div class="abbrv">Symposium on Trends in Functional Programming</div>
+              </th>
+              <td nowrap><a href="https://tfp2016.org/">2016</a></td>
+            </tr>
+            <tr>
+              <th>
+                SLE
+                <div class="abbrv">International Conference on Software Language Engineering</div>
+              </th>
+              <td nowrap><a href="http://www.sleconf.org/2016/">2016</a></td>
+            </tr>
+            <tr>
+            <tr>
+              <th>
+                Scala
+                <div class="abbrv">Scala Symposium</div>
+              </th>
+              <td nowrap><a href="https://conf.researchr.org/track/scala-2016/scala-2016">2016</a>, <a href="https://conf.researchr.org/track/scala-2018/scala-2018-papers">2018</a></td>
+            </tr>
+            <tr>
+              <th>
+                OBT
+                <div class="abbrv">Off the Beaten Track</div>
+              </th>
+              <td nowrap><a href="https://popl18.sigplan.org/track/OBT-2018">2018</a></td>
+            </tr>
+            <tr>
+              <th>
+                IFL
+                <div class="abbrv">Implementation of Functional Languages</div>
+              </th>
+              <td nowrap><a href="http://iflconference.org/">2018</a></td>
+            </tr>
+            <tr>
+              <th>
+                PLE
+                <div class="abbrv">Programming Language Evolution</div>
+              </th>
+              <td nowrap><a href="https://2015.ecoop.org/track/PLE-2015-papers">2015</a></td>
+            </tr>
+            <tr>
+              <th>
+                DSLDI
+                <div class="abbrv">Domain-Specific Language Design and Implementation</div>
+              </th>
+              <td nowrap><a href="https://2015.ecoop.org/track/dsldi-2015-papers">2015</a></td>
+            </tr>
+            <tr>
+              <th>
+                SAC
+                <div class="abbrv">Symposium on Applied Computing</div>
+              </th>
+              <td nowrap><a href="https://www.sigapp.org/sac/sac2016/program.html">2016</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="lighter-blue-bg-bar">
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-one-fifth">
+          <div id="background" class="at-a-glance-header">
+            <i class="fas fa-graduation-cap"></i>
+            Background
+          </div>
+        </div>
+        <div class="column">
+          <div class="teaching-head">Carnegie Mellon University</div>
+          <table class="table teaching">
+            <tbody>
+              <tr>
+                <th nowrap><a href="https://composablesystems.org/15-440/fa2020">15-440</a></th>
+                <td>Distributed Systems</td>
+                <td nowrap>Fall 2020</td>
+              </tr>
+              <tr>
+                <th nowrap><a href="http://10605.github.io/">10-405</a></th>
+                <td>Machine Learning for Large Datasets</td>
+                <td nowrap>Spring 2020</td>
+              </tr>
+              <tr>
+                <th nowrap><a href="https://cmu-17-356.github.io/">17-356</a></th>
+                <td>Software Engineering for Startups</td>
+                <td nowrap>Spring 2020</td>
+              </tr>
+              <tr>
+                <th nowrap><a href="https://cmu-17-356.github.io/">17-356</a></th>
+                <td>Software Engineering for Startups</td>
+                <td nowrap>Spring 2019</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="teaching-head">Northeastern University</div>
+          <table class="table teaching">
+            <tbody>
+              <tr>
+                <th nowrap><a href="{{ site.baseurl }}/teaching/cs4240/spring2018">CS4240</a></th>
+                <td>Large-Scale Parallel Data Processing</td>
+                <td nowrap>Spring 2018</td>
+              </tr>
+              <tr>
+                <th nowrap><a href="{{ site.baseurl }}/teaching/cs7680/">CS7680</a></th>
+                <td>Special Topics in Computer Systems: Programming Models for Distributed Computation</td>
+                <td nowrap>Fall 2016</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="teaching-head">EPFL</div>
+          <table class="table teaching">
+            <tbody>
+              <tr>
+                <th nowrap>CS 206</th>
+                <td>Parallelism and Concurrency</td>
+                <td nowrap>Spring 2016</td>
+              </tr>
+              <tr>
+                <th nowrap>CS 212</th>
+                <td>Reactive Programming and Parallelism</td>
+                <td nowrap>Spring 2015</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="column">
+          <!-- <img src="resources/img/coursera.svg"> -->
+          <!-- <div class="mooc-label">MOOC</div> -->
+          <div class="tag mooc-label">MOOC</div>
+          <div class="teaching-head">Big Data Analysis with Scala and Spark</div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="columns collaborators">
+      <div class="column is-one-fifth large-white">I'm beyond fortunate to work with many folks at CMU and beyond who are far more talented than I:</div>
+      <!-- <div class="column">
+        <span class="list-head">EPFL Team (Scala Center)</span>
+        <br><a href="https://geirsson.com/">Ólafur Páll Geirsson</a>, <span class="job">Software Engineer</span>
+        <br>Jorge Vicente Cantero, <span class="job">Software Engineer</span>
+        <br>Guillaume Massé, <span class="job">Software Engineer</span>
+        <br><a href="http://julien.richard-foy.fr/">Julien Richard-Foy</a>, <span class="job">Senior Software Engineer</span>
+        <br>Martin Duhem, <span class="job">Software Engineer</span>
+        <br>Darja Jovanovic, <span class="job">Community/Communication Manager</span>
+        <br>Sylvie Jankow, <span class="job">Administrative Assitant</span>
+        <br>Fabien Salvi, <span class="job">System Administrator</span>
+      </div> -->
+      <div class="column">
+        <span class="list-head">CMU Team</span>
+        <br><a href="http://christophermeiklejohn.com/">Christopher Meiklejohn</a>, <span class="job">PhD Student</span>
+        <br><a href="https://twitter.com/zeeshanlakhani">Zeeshan Lakhani</a>, <span class="job">PhD Student</span>
+        <br><a href="http://mattweidner.com/">Matthew Weidner</a>, <span class="job">PhD Student</span>
+        <br>Luke Dramko, <span class="job">Undergraduate/REU Student</span>
+        <br><br>
+        <span class="list-head">Collaborators at Large</span>
+        <br><a href="http://www.csc.kth.se/~phaller/">Philipp Haller</a>, <span class="job">KTH Royal Institute of Technology</span>
+        <br><a href="https://people.ucsc.edu/~palvaro/">Peter Alvaro</a>, <span class="job">University of California, Santa Cruz</span>
+        <br><a href="https://adelbertc.github.io/">Adelbert Chang</a>, <span class="job">Target, AI Engineering</span>
+      </div>
+      <div class="column">
+        <!-- <span class="list-head">Former</span>
+        <br><a href="http://christophermeiklejohn.com/">Luke Dramko</a>, <span class="job">Undergraduate/REU Student</span>
+        <br><a href="https://twitter.com/zeeshanlakhani">Zeeshan Lakhani</a>, <span class="job">PhD Student</span>
+        <br><br> -->
+      </div>
+    </div>
+  </div>
+</section>

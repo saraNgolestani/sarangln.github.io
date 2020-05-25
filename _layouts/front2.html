@@ -1,0 +1,74 @@
+---
+layout: front2
+---
+{% include header-blog.html %}
+
+<main id="panel">
+  <header>
+    <div class="thin-top-bar"></div>
+    <div class="gray-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-2">
+            <div class="logo-wrap">
+              <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/resources/img/emblem.png" /></a>
+            </div>
+            <div class="name">Mehdi<strong>Akbarian</strong></div>
+          </div>
+          <div class="col-sm-8 visible-md visible-lg">
+            <div class="navbar-wrap">
+              <ul class="navbar">
+                {% include navbar-links.html %}
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-8 visible-sm visible-xs">
+            <div id="burger" data-toggle="collapse" data-target="#navbar-responsive-wrap">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="navbar-responsive-wrap navbar-static-top navbar-collapse collapse" id="navbar-responsive-wrap">
+              <ul class="navbar-responsive">
+                {% include navbar-links.html %}
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-1">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container blog">
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-6">
+        {{ content }}
+      </div>
+      <div class="col-sm-3"></div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-6">
+        <div class="footer-links">
+        </div>
+        <!-- {{ site.categories.blog.size > 3}} -->
+      </div>
+      <div class="col-sm-4"></div>
+    </div>
+  </div>
+
+</main>
+
+{% include footer.html %}
+
+<script>
+    // get current year and put it in span
+    var currYear = new Date().getFullYear()
+    $(".current-year").text(currYear);
+</script>

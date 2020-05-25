@@ -1,0 +1,64 @@
+---
+layout: blog
+---
+{% include header2.html %}
+{% include navbar2.html %}
+
+
+<section class="section">
+  <div class="container main">
+    <div class="columns">
+      <div class="column content blog">
+        <div class="small-title-above">{{ page.small-title-above }}</div>
+        <h1 style="margin-top: 0;">{{ page.title }}</h1>
+        {% if page.subtitle %}<div class="subtitle">{{ page.subtitle }}</div>{% endif %}
+        {{ content }}
+      </div>
+      <div class="column is-one-third content">
+
+        <nav id="toc" data-spy="affix" data-toggle="toc">
+          <div class="toc-header" data-spy="affix">
+            <span class="toc-contents">Contents</span>
+          </div>
+          <span class="toc-hide">Hide</span><span class="toc-expand">Expand</span>
+        </nav>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include footer2.html %}
+
+<script>
+
+    $( ".toc-hide" ).click(function() {
+      // $( this ).toggleClass( "gray-bg" );
+      $(".toc-contents").toggleClass( "lighter" );
+
+      if ($(this).text() == 'Hide') {
+        $(this).text("Show");
+      } else {
+        $(this).text("Hide");
+      }
+      // toggle visibility of contents, and expand button
+      $(".nav").toggle();
+      $(".toc-expand").toggle();
+    });
+
+    $( ".toc-expand" ).click(function() {
+      // $( this ).toggleClass( "gray-bg" );
+
+      if ($(this).text() == 'Expand') {
+        $(this).text("Compact");
+        $(".nav").css('display', 'block');
+      } else {
+        $(this).text("Expand");
+        $(".nav .nav").css('display', 'none');
+      }
+    });
+
+    // get current year and put it in span
+    var currYear = new Date().getFullYear()
+    $(".current-year").text(currYear);
+</script>

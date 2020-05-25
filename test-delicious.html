@@ -1,0 +1,38 @@
+---
+---
+
+<html>
+<head>
+  <script src="{{ site.baseurl }}/resources/js/vendor/jquery-1.11.0.min.js" type="text/javascript" ></script>
+</head>
+<body>
+
+<div class="col-sm-3 col-xs-6">
+    <h4>Morsels</h4>
+
+    <p>Some pinboard bookmarks.</p>
+    <ul class="delicious"></ul>
+    <p>Enjoy!</p>
+    <script>
+        $(function ($) {
+            $.ajax({
+                url:'https://feeds.pinboard.in/json/u:heathermiller/',
+                jsonp: "cb",
+                dataType: 'jsonp',
+                // contentType: "application/json",
+                success: function (feed) {
+                    $.each(feed, function () {
+                        var tags = '';
+                        $.each(this.t, function() {
+                            tags += '<span class="pinboard-tag">' + this + '</span>';
+                        });
+                        $('<li><a target="_new" title="added ' + this.dt.replace('T', ' ') + '" href="' + this.u + '">' + this.d + '</a>' + tags + '</li>').appendTo('ul.delicious');
+                    });
+                }
+            });
+        });
+    </script>
+</div>
+
+</body>
+</html>

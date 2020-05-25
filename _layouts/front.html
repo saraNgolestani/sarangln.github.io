@@ -1,0 +1,93 @@
+---
+layout: front
+---
+{% include header.html %}
+
+{% include navbar.html %}
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-5">
+        <div class="profile visible-xs visible-sm centered">
+          <div style="text-align: center;">
+            <div class="white first name">{{ site.first-name }}</div>
+            <div class="white last name">{{ site.last-name }}</div>
+          </div>
+          <div class="title" style="text-align: center;">{{ site.job-title }}</div>
+          <div class="blurb" style="text-align: center">{{ site.blurb-about-self }}</div>
+        </div>
+        <div class="profile visible-md visible-lg">
+          <div class="white first name">{{ site.first-name }}</div>
+          <div class="white last name">{{ site.last-name }}</div>
+          <div class="title">{{ site.job-title }}</div>
+          <div class="blurb">{{ site.blurb-about-self }}</div>
+        </div>
+      </div>
+      <div class="col-md-4 visible-xs visible-sm" style="text-align: center;">
+        <div class="collapsed-entypo">
+          <a href="mailto:{{ site.email }}"><span class="entypo mail"></span></a>
+          <a href="https://twitter.com/{{ site.twitter }}"><span class="entypo-social twitter"></span></a>
+          <a href="https://github.com/{{ site.github }}"><span class="entypo-social github"></span></a>
+          <a href="{{ site.location-url }}"><span class="entypo location"></span></a>
+        </div>
+      </div>
+      <div class="col-md-4 visible-md visible-lg">
+        <div class="coordinates">
+          <div style="padding-bottom: 12px;">
+            <div style="float:left; width: 90px;"><img src="resources/img/epfl-logo-red.png"></div>
+            <div class="location" style="line-height: 1em; float:left;"></span>&nbsp;<span class="coord" style="font-size: 13px;"><a href="{{ site.location-url }}">EPFL<br/>INR 329,<br/>Lausanne, Switzerland</a></div>
+          </div><br/><br/>
+          <span class="entypo mail"></span>&nbsp;<span class="coord"><a href="mailto:{{ site.email }}">{{ site.email }}</a></span><br/>
+          <span class="entypo-social twitter"></span>&nbsp;<span class="coord"><a href="https://twitter.com/{{ site.twitter }}">{{ site.twitter }}</a></span><br/>
+          <span class="entypo-social github"></span>&nbsp;<span class="coord"><a href="https://github.com/{{ site.github }}">{{ site.github }}</a></span>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  </div>
+</div>
+<div class="about-me">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 center"></div>
+      <div class="col-md-8 center">
+        {% include about-me.html %}
+      </div>
+      <div class="col-md-2 center"></div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <!-- <div id="futures-promises-views"></div> -->
+  <!-- <div id="pickles-spores-scaladays"></div> -->
+  <!-- <div id="spores-strangeloop"></div> -->
+  <!-- <div id="instant-pickles-oopsla"></div> -->
+
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-6">
+      <div class="publications">
+        <h1>Publications</h1>
+      </div>
+{% include conference-papers.html %}
+      <div class="publications">
+        <h1>PhD Thesis</h1>
+{% include phd-thesis.html %}
+      </div>
+    </div>
+    <div class="col-md-3">
+      <!-- <div class="selected-talks">
+        <h1>Selected Talks</h1>
+        Some selected talks here. Some selected talks here. Some selected talks here. Some selected talks here. Some selected talks here. Some selected talks here.
+      </div> -->
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+
+<br/><br/><br/><br/>
+  {{ content }}
+</div>
+
+{% include footer.html %}

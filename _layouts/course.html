@@ -1,0 +1,45 @@
+---
+layout: default
+---
+{% include header2.html %}
+{% include navbar2.html %}
+
+{% assign course = site.data.courses[page.course-ref] %}
+
+<section class="section">
+  <div class="container main">
+    <div class="columns">
+      <div class="column is-one-quarter content">
+        <h1><a style="border-bottom: 0px;" href="{{ course.course-url }}">{{ course.course-number }}</a></h1>
+        <div class="is-hidden-tablet"><h1><a style="border-bottom: 0px;" href="{{ course.course-url }}">{{ course.course-title }}</a></h1></div>
+        <strong>Northeastern University</strong>
+        <br>College of Computer and Information Science
+        <hr>
+        <strong>{{ course.semester }}</strong>
+        <br><strong>When: </strong>{{ course.times }}
+        <br><strong>Where: </strong>{{ course.location }}
+        <hr>
+        <strong>Instructor:</strong> {{ course.instructor }}
+        <br><strong>Office: </strong>{{ course.office }}
+        <br><strong>Office Hours: </strong>{{ course.instructor-office-hours }}
+        <br><i>Contact us via <a href="{{ course.piazza-url }}">Piazza</a></i>
+        <br>
+        <br><strong>TA:</strong> {{ course.ta }}
+        <br><strong>Office:</strong> {{ course.ta-office }}
+        <br><strong>Office Hours:</strong> {{ course.ta-office-hours }}
+        <br><i>Contact us via <a href="{{ course.piazza-url }}">Piazza</a></i>
+        <hr>
+        Quick links:
+        {% for link in course.toc-links %}
+        <br><a href="{{ link.url }}">{{ link.text }}</a>
+        {% endfor %}
+      </div>
+      <div class="column content">
+        <div class="is-hidden-mobile"><h1><a style="border-bottom: 0px;" href="{{ course.course-url }}">{{ course.course-title }}</a></h1></div>
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include footer2.html %}
