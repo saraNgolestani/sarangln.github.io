@@ -7,7 +7,7 @@ job-title: 'Computer  Science Student at UofA and Founder of <a href="https://sa
 # blurb-about-self: 'Advisor: <a style="font-weight: bold;" href="http://lampwww.epfl.ch/~odersky/">Martin Odersky</a>'
 profpic: '/resources/img/profilepic.jpg'
 profpic-retina: '/resources/img/profilepic@2x.jpg'
-twitter: mehdi_akbarian_
+twitter: mehdiakbn
 email: 'makbaria@ualberta.ca'
 github: 'makbn'
 location: 'Virgo Supercluster'
@@ -32,9 +32,9 @@ primarylanguage: java
 #     permalink: /blog/:title.html
 
 # Settings for blog RSS feed
-name: "Mehdi Akbarian Blog"
+name: "Mehdi Akbarian"
 description: ""
-url: "https://makbn.me"
+url: "https://makbn.giithub.io"
 
 permalink: /:categories/:title.html
 # markdown: redcarpet
