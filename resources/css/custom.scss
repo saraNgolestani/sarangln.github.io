@@ -332,13 +332,13 @@ code.highlighter-rouge {
 
 .large-white {
   font-size: $size-5;
-  color: $white;
+  color: $bluish-black;
   line-height: 1.3em;
 }
 
 .at-a-glance-header {
   // text-align: center;
-  color: $white;
+  color: $almost-black;
   font-size: $size-4;
   font-weight: 700;
   margin-bottom: 16px;
@@ -457,7 +457,7 @@ code.highlighter-rouge {
 
 .tag.mooc-label {
   background: linear-gradient(to right, $gator-pink, $gator-orange);
-  color: $white;
+  color: $almost-black;
   font-weight: bold;
   display: flex;
   width: 170px;
