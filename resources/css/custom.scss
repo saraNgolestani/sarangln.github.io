@@ -14,7 +14,7 @@ $almost-black: #171f2d;
 $light-blue-gray: #f1f8fc;
 $blue-gray: #7e97ad;
 $dark-blue-bg: #ffffff;
-$lighter-blue-bg: #dfdfdf;
+$lighter-blue-bg: #f4f2dc;
 $border-gray: transparentize($gray-text, 0.7);
 // --start: hsl(340, 55%, 45%);
 // --end: hsl(280, 45%, 55%);
@@ -198,7 +198,7 @@ code.highlighter-rouge {
 }
 
 .footer {
-  background-color: $almost-black;
+  background-color: $lighter-blue-bg;
   color: $gray-text;
   font-weight: 400;
   a {
