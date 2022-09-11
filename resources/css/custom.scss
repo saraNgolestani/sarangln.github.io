@@ -230,7 +230,7 @@ code.highlighter-rouge {
 
 .heather, .miller, .small-title-above {
   font-family: "Source Sans Pro";
-  color: white;
+  color: black;
   font-size: 22px;
 }
 .heather {
@@ -243,7 +243,7 @@ code.highlighter-rouge {
 }
 
 .small-title-above {
-  color: transparentize(white, 0.5);
+  color: transparentize(black, 0.5);
   text-transform: uppercase;
   margin-top: 1em;
 }
