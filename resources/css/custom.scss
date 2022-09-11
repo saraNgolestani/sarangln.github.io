@@ -418,7 +418,7 @@ code.highlighter-rouge {
 
 .teaching-head,
 .publication-head {
-  color: $white;
+  color: $almost-black;
   font-weight: bold;
   font-size: $size-5;
 }
@@ -428,13 +428,13 @@ code.highlighter-rouge {
 }
 
 .book-title {
-  color: $white;
+  color: $almost-black;
   font-weight: bold;
   font-size: $size-5;
 }
 
 .book-authors {
-  color: $white;
+  color: $almost-black;
   line-height: 1.2em;
   margin-bottom: 6px;
 }
@@ -447,7 +447,7 @@ code.highlighter-rouge {
 
 .book-oa {
   a {
-    color: $white;
+    color: $almost-black;
     border-bottom: solid 2px $dark-pink;
     &:hover {
       color: $blue-gray;
