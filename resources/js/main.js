@@ -16,13 +16,15 @@ $(document).ready(function() {
 		$(this).toggleClass('open');
 	});
 
+    var today=new Date();
+    var dob=new Date("1/1/2012");
+    var age=today.getFullYear()-dob.getFullYear();
+    document.getElementById("java_exp_years").value=age;
+
 });
 
 
-  var today=new Date();
-  var dob=new Date("1/1/2012");
-  var age=today.getFullYear()-dob.getFullYear();
-  document.getElementById("java_exp_years").value=age;
+
 
 
 // speaker deck viewcounts
