@@ -44,3 +44,6 @@ sass:
   style: compressed
 
 livereload: true
+
+plugins:
+  - jekyll-seo-tag
