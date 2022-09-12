@@ -251,6 +251,15 @@ code.highlighter-rouge {
 .job {
   color: $gray-text;
   font-style: italic;
+
+  ul {
+    margin-top: -8px;
+    li {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      list-style-type: disc;
+    }
+  }
 }
 
 .list-head {
