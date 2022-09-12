@@ -358,12 +358,6 @@ code.highlighter-rouge {
 .service-table, .teaching, .publications {
   background-color: transparent !important;
   color: $blue-gray;
-  tbody {
-    border-color: $border-gray;
-  }
-  tr:hover {
-    background-color: transparentize($gray-text, 0.8);
-  }
   th, td {
     padding: 0.25em 0.75em;
     a {
@@ -479,7 +473,7 @@ code.highlighter-rouge {
 .subsec-head {
   font-weight: bold;
   font-size: $size-5;
-  color: $white;
+  color: $almost-black;
 }
 
 .ercs {
