@@ -5,6 +5,11 @@ document.addEventListener('DOMContentLoaded', function () {
   // get current year and put it in span
   var currYear = new Date().getFullYear();
   $(".current-year").text(currYear);		
+
+
+  var java_sd = new Date("1/1/2012");
+  var age = currYear - java_sd.getFullYear();
+  document.getElementById("java_exp_years").value=age;
 	
 
   // Navbar
