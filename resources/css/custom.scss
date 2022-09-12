@@ -343,6 +343,9 @@ code.highlighter-rouge {
   font-size: $size-5;
   color: $bluish-black;
   line-height: 1.3em;
+  .fa-li{
+    font-family: 'FontAwesome';
+  }
 }
 
 .at-a-glance-header {
