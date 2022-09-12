@@ -8,10 +8,10 @@ job-title: 'Computer  Science Student at UofA and Founder of <a href="https://sa
 profpic: '/resources/img/profilepic.jpg'
 profpic-retina: '/resources/img/profilepic@2x.jpg'
 twitter: mehdiakbn
-email: 'makbaria@ualberta.ca'
+email: 'mehdi74akbarian@gmail.com'
 github: 'makbn'
-location: 'Virgo Supercluster'
-#location-url: "https://www.google.com/maps/place/46%C2%B031'06.3%22N+6%C2%B033'44.6%22E/@46.5188495,6.5633963,18z/data=!4m2!3m1!1s0x0:0x0"
+location: 'Calgary, AB, Canada'
+location-url: "https://goo.gl/maps/tTXYvHFQ9rj6GyiLA"
 
 # For syntax highlighting, the primary programming langauge you intend to use in
 # blog articles. By default, Google's prettify will be used for this programming
@@ -33,7 +33,7 @@ primarylanguage: java
 
 # Settings for blog RSS feed
 name: "Mehdi Akbarian"
-description: ""
+description: "I'm a graduate student and research assistant at the University of Alberta, Department of Computer Science. Formerly, I was a full-time software engineer at Fanap Co., where I worked with the titles of Technical Lead in Sakku Cloud Platform and Pod Space Cloud Storage. I started coding in middle school and, after a while, switched to Java in 2012. In my graduate studies, I worked with Prof. Rafiei on the Open Entity Resolution topic using transformer-based language models. During this time, I practiced a lot with Data mining and Machine learning techniques. I will graduate in December, 2022."
 url: "https://makbn.giithub.io"
 
 permalink: /:categories/:title.html
