@@ -1,6 +1,22 @@
 
 refereed:
   pubs:
+  - title: Probing the Robustness of Pre-trained Language Models for Entity Matching
+    authors: Mehdi Akbarian Rastaghi, Ehsan Kamalloo and Davood Rafiei
+    year: 2022
+    month: October
+    abbrv: CIKM 
+    conference-full: "Proceedings of the 31st ACM International Conference on Information and Knowledge Management - CIKM '22"
+    location: Georgia, USA
+  
+  - title: Geo-Enabled Business Process Modeling
+    authors: Behshid Behkamal Asef Pourmasoumi, Mehdi Akbarian Rastaghin, Hamid Reza Motahari-Nezhad, Mohammad Allahbakhsh and Issa Najafi
+    year: 2020
+    month: September
+    abbrv: BPM 
+    conference-full: "18th Int. Conference on Business Process Management - BPM 2020"
+    location: Sevilla, Spain
+
   - title: Meeting of Events and Evidence on the Map
     authors: Mehdi Akbarian-Rastaghi, Behshid Behkamal and Asef Pourmasoumi
     year: 2018
