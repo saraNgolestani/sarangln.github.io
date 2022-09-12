@@ -18,6 +18,13 @@ $(document).ready(function() {
 
 });
 
+
+  var today=new Date();
+  var dob=new Date("1/1/2012");
+  var age=today.getFullYear()-dob.getFullYear();
+  document.getElementById("java_exp_years").value=age;
+
+
 // speaker deck viewcounts
 // var futuresPromises = getSpeakerdeckStats("cv96bzz6", "futures-promises-views");
 // var picklesSporesScaladays = getSpeakerdeckStats("5gabjggm", "pickles-spores-scaladays");
