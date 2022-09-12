@@ -35,6 +35,7 @@ primarylanguage: java
 name: "Mehdi Akbarian"
 description: "I'm a graduate student and research assistant at the University of Alberta, Department of Computer Science. Formerly, I was a full-time software engineer at Fanap Co., where I worked with the titles of Technical Lead in Sakku Cloud Platform and Pod Space Cloud Storage. I started coding in middle school and, after a while, switched to Java in 2012. In my graduate studies, I worked with Prof. Rafiei on the Open Entity Resolution topic using transformer-based language models. During this time, I practiced a lot with Data mining and Machine learning techniques. I will graduate in December, 2022."
 url: "https://makbn.giithub.io"
+tagline: "Mehdi Akbarian Rastaghi Page, Software Engineer, Data Engineer"
 
 permalink: /:categories/:title.html
 # markdown: redcarpet
@@ -47,3 +48,14 @@ livereload: true
 
 plugins:
   - jekyll-seo-tag
+
+
+social:
+  name: Mehdi Akbarian Rastaghi
+  links:
+    - https://www.linkedin.com/in/mehdiakbarian/
+    - https://github.com/makbn
+    - https://apps.ualberta.ca/directory/person/makbaria
+    - https://www.facebook.com/makbn
+    - https://scholar.google.com/citations?user=tXqn5GEAAAAJ&hl=en
+    - https://stackoverflow.com/users/4708874/mehdi-akbarian-rastaghi
