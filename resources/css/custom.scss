@@ -208,7 +208,7 @@ code.highlighter-rouge {
     &:hover,
     &.is-active {
       transition: all $base-duration;
-      color: $white;
+      color: $almost-black;
       border-bottom: solid 2px $dark-pink;
     }
   }
@@ -379,7 +379,7 @@ code.highlighter-rouge {
       border-bottom: solid 1px transparent;
       &:hover,
       &.is-active {
-        color: $white;
+        color: $almost-black;
       }
     }
   }
