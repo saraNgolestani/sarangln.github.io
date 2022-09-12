@@ -89,10 +89,11 @@ code.highlighter-rouge {
 .collaborators {
   a {
     color: $blue-gray;
-    font-weight: 700;
+    font-weight: 700 !important;
     &:hover,
     &.is-active {
       color: $almost-black;
+      font-weight: 700 !important;
       border-bottom: solid 2px $dark-pink;
     }
   }
