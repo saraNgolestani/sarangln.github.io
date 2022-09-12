@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var java_sd = new Date("1/1/2012");
   var age = currYear - java_sd.getFullYear();
   document.getElementById("java_exp_years").value=age;
-	
+  $(".java_exp_years").text(currYear);
 
   // Navbar
 
