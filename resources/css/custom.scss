@@ -362,7 +362,7 @@ code.highlighter-rouge {
     padding: 0.25em 0.75em;
     a {
       color: $blue-gray;
-      border-bottom: solid 1px $dark-pink;
+      border-bottom: solid 1px transparent;
       &:hover,
       &.is-active {
         color: $white;
