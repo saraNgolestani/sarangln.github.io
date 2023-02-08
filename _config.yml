@@ -1,10 +1,9 @@
-title: "Mehdi Akbarian"
+title: "Matt Akbarian"
 baseurl: ""
 
 first-name: 'Mehdi'
 last-name: 'Akbarian Rastaghi'
-job-title: 'Computer  Science Student at UofA and Founder of <a href="https://sakkku.cloud/En">SAKKU Cloud Platform</a>'
-# blurb-about-self: 'Advisor: <a style="font-weight: bold;" href="http://lampwww.epfl.ch/~odersky/">Martin Odersky</a>'
+job-title: 'Software Developer at Aimsio and Founder of <a href="https://sakkku.cloud/En">SAKKU Cloud Platform</a>'
 profpic: '/resources/img/profilepic.jpg'
 profpic-retina: '/resources/img/profilepic@2x.jpg'
 twitter: mehdiakbn
@@ -32,10 +31,10 @@ primarylanguage: java
 #     permalink: /blog/:title.html
 
 # Settings for blog RSS feed
-name: "Mehdi Akbarian"
-description: "I'm a graduate student and research assistant at the University of Alberta, Department of Computer Science. Formerly, I was a full-time software engineer at Fanap Co., where I worked with the titles of Technical Lead in Sakku Cloud Platform and Pod Space Cloud Storage. I started coding in middle school and, after a while, switched to Java in 2012. In my graduate studies, I worked with Prof. Rafiei on the Open Entity Resolution topic using transformer-based language models. During this time, I practiced a lot with Data mining and Machine learning techniques. I will graduate in December, 2022."
+name: "Matt Akbarian"
+description: "Hello! I am Matt (Mehdi), a proud alumnus of the University of Alberta and a software developer at Aimsio. I am passionate about technology and dedicated to delivering excellence in software development. I aim to make a positive impact in the tech industry, and I am excited to continue growing and learning alongside my talented colleagues at Aimsio."
 url: "https://makbn.giithub.io"
-tagline: "Mehdi Akbarian Rastaghi Page, Software Engineer, Data Engineer"
+tagline: "Matt Akbarian Rastaghi Page, Software Engineer, Data Engineer"
 
 permalink: /:categories/:title.html
 # markdown: redcarpet
