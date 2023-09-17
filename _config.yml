@@ -17,7 +17,7 @@ location-url: "https://goo.gl/maps/tTXYvHFQ9rj6GyiLA"
 # language, as per the instructions here: https://github.com/google/code-prettify
 # For example, if I indicate `scala`, all pre/code blocks will have the `lang-scala`
 # class added to the markup, triggering prettify to highlight the syntax as Scala.
-primarylanguage: java
+primarylanguage: Python
 # To sidestep the default language for syntax highlighting set here, you can be
 # explicit in your blog articles with the langauge you'd prefer to use. E.g.,
 # <pre>
@@ -31,10 +31,10 @@ primarylanguage: java
 #     permalink: /blog/:title.html
 
 # Settings for blog RSS feed
-name: "Matt Akbarian"
-description: "Hello! I am Matt (Mehdi), a proud alumnus of the University of Alberta and a software developer at Aimsio. I am passionate about technology and dedicated to delivering excellence in software development. I aim to make a positive impact in the tech industry, and I am excited to continue growing and learning alongside my talented colleagues at Aimsio."
-url: "https://makbn.giithub.io"
-tagline: "Matt Akbarian Rastaghi Page, Software Engineer, Data Engineer"
+name: "Sara Golestani"
+description: "Hello! I am Sara, a proud alumni of the University of Calgary and a Machine Learning Developer. Proficient in designing, training, and deploying machine learning models, including neural networks and deep learning architectures, for diverse applications such as object detection, natural language processing (NLP), and resource usage forecasting. Adept at creating efficient data processing pipelines for complex datasets, including 3D point cloud data, and extracting meaningful features for machine learning tasks. Hands-on experience in developing end-to-end ML pipelines, from data preprocessing to model deployment, utilizing Azure and Docker for scalability and efficiency. "
+url: "https://sarangolestani.github.io"
+tagline: "Sara Naseri Golestani Page, Machine Learning Engineer, Data Scientist"
 
 permalink: /:categories/:title.html
 # markdown: redcarpet
@@ -50,11 +50,7 @@ plugins:
 
 
 social:
-  name: Mehdi Akbarian Rastaghi
+  name: Sara Naseri Golestani
   links:
-    - https://www.linkedin.com/in/mehdiakbarian/
-    - https://github.com/makbn
-    - https://apps.ualberta.ca/directory/person/makbaria
-    - https://www.facebook.com/makbn
-    - https://scholar.google.com/citations?user=tXqn5GEAAAAJ&hl=en
-    - https://stackoverflow.com/users/4708874/mehdi-akbarian-rastaghi
+    - https://www.linkedin.com/in/s-golestani/
+    - https://github.com/sarangln
