@@ -4,6 +4,8 @@
 @import "utilities/initial-variables";
 @import "utilities/functions";
 
+$green:#52e09b;
+$green-invert:#40f175;
 $gray-text: #485a70;
 $muted-red: #f83035;
 $dark-pink: #e6375a;
@@ -23,7 +25,7 @@ $base-duration: 350ms;
 $base-timing: ease;
 $base-transition: all $base-duration $base-timing;
 
-$highlight-gradient: linear-gradient(135deg, $gator-pink, $gator-orange);
+$highlight-gradient: linear-gradient(135deg, $green-invert, #52e09b);
 
 html {
   background: $dark-blue-bg;
@@ -72,7 +74,7 @@ code.highlighter-rouge {
   font-size: $size-4;
   a {
     color: $almost-black;
-    border-bottom: solid 2px $dark-pink;
+    border-bottom: solid 2px #52e09b;
     &:hover,
     &.is-active {
       color: $gray-text;
@@ -94,7 +96,7 @@ code.highlighter-rouge {
     &.is-active {
       color: $almost-black;
       font-weight: 700 !important;
-      border-bottom: solid 2px $dark-pink;
+      border-bottom: solid 2px #52e09b;
     }
   }
 }
@@ -138,7 +140,7 @@ code.highlighter-rouge {
      background-color: transparent !important;
      color: $bluish-black;
      .topbar-item {
-       border-bottom: solid 2px $dark-pink;
+       border-bottom: solid 2px #52e09b;
      }
 	}
     a {
@@ -148,12 +150,12 @@ code.highlighter-rouge {
         background-color: transparent !important;
         color: $white;
         .topbar-item {
-          border-bottom: solid 2px $dark-pink;
+          border-bottom: solid 2px #52e09b;
         }
       }
     }
     .navbar-link::after {
-      border: 2px solid $dark-pink;
+      border: 2px solid #52e09b;
       border-right: 0;
       border-top: 0;
       content: " ";
@@ -209,7 +211,7 @@ code.highlighter-rouge {
     &.is-active {
       transition: all $base-duration;
       color: $almost-black;
-      border-bottom: solid 2px $dark-pink;
+      border-bottom: solid 2px #52e09b;
     }
   }
 }
@@ -464,7 +466,7 @@ code.highlighter-rouge {
 }
 
 .tag.mooc-label {
-  background: linear-gradient(to right, $gator-pink, $gator-orange);
+  background: linear-gradient(to right, $green-invert, #52e09b);
   color: white;
   font-weight: bold;
   display: flex;
@@ -843,7 +845,7 @@ $scala-sm-height: 22px;
   .article a,
   .source a {
     text-transform: uppercase;
-    color: $dark-pink;
+    color: #52e09b;
     font-size: .75rem;
     font-weight: $weight-bold;
     &:hover {
