@@ -415,7 +415,7 @@ code.highlighter-rouge {
   th {
     a {
       color: $blue-gray;
-      border-bottom: solid 2px $dark-pink;
+      border-bottom: solid 2px #52e09b;
       &:hover,
       &.is-active {
         color: $almost-black;
@@ -456,7 +456,7 @@ code.highlighter-rouge {
 .book-oa {
   a {
     color: $almost-black;
-    border-bottom: solid 2px $dark-pink;
+    border-bottom: solid 2px #52e09b;
     &:hover {
       color: $blue-gray;
     }
@@ -493,7 +493,7 @@ code.highlighter-rouge {
 .ercs {
   a {
     color: $blue-gray;
-    border-bottom: solid 1px $dark-pink;
+    border-bottom: solid 1px #52e09b;
     &:hover,
     &.is-active {
       color: $white;
@@ -508,10 +508,10 @@ code.highlighter-rouge {
   height: 2em;
   border: 0px;
   color: $white;
-  background: linear-gradient(to right, $gator-pink, $gator-orange);
+  background: linear-gradient(to right, #52e09b, #40f175);
   &:hover {
     color: rgba(255, 255, 255, 0.65);
-    background: linear-gradient(to right, $gator-orange, $gator-pink);
+    background: linear-gradient(to right, #40f175, #52e09b);
   }
 }
 
@@ -540,7 +540,7 @@ code.highlighter-rouge {
   th {
     a {
       color: $blue-gray;
-      border-bottom: solid 2px $dark-pink;
+      border-bottom: solid 2px #52e09b;
       &:hover,
       &.is-active {
         color: $white;
@@ -555,7 +555,7 @@ code.highlighter-rouge {
   padding-bottom: 4px;
   a {
      color: $white;
-     border-bottom: solid 2px $dark-pink;
+     border-bottom: solid 2px #52e09b;
      &:hover,
      &.is-active {
        color: $blue-gray;
@@ -578,7 +578,7 @@ code.highlighter-rouge {
 
 .pub-conf-abbrv {
   font-weight: bold;
-  color: $dark-pink;
+  color: #52e09b;
 }
 
 .pub-meta {
@@ -590,13 +590,13 @@ code.highlighter-rouge {
 .tag.pub-tag {
   color: $white;
   font-weight: bold;
-  background-color: $dark-pink;
+  background-color: #52e09b;
   height: 1.3em;
   padding-left: 0.3em;
   padding-right: 0.3em;
   margin-right: 0.25em;
   &:hover {
-    background-color: $gator-orange;
+    background-color: #40f175;
   }
 }
 
@@ -775,6 +775,7 @@ $scala-sm-height: 22px;
 }
 
 .green_text {
+
   color: #52e09b
 }
 
@@ -785,7 +786,7 @@ $scala-sm-height: 22px;
   // color: $white;
   a {
     color: $almost-black;
-    border-bottom: solid 2px $dark-pink;
+    border-bottom: solid 2px #52e09b;
     &:hover,
     &.is-active {
       color: $gray-text;
@@ -837,7 +838,7 @@ $scala-sm-height: 22px;
   }
   .abbrv {
     font-weight: $weight-bold;
-    color: $dark-pink;
+    color: #52e09b;
   }
   .article a,
   .source a {
@@ -846,7 +847,7 @@ $scala-sm-height: 22px;
     font-size: .75rem;
     font-weight: $weight-bold;
     &:hover {
-      color: $gator-orange;
+      color: #40f175;
     }
   }
   .abstract {
@@ -856,7 +857,7 @@ $scala-sm-height: 22px;
 }
 
 .lil-pub-button {
-  background: linear-gradient(to right, $gator-pink, $gator-orange);
+  background: linear-gradient(to right, #34b25a, #40f175);
   color: $white;
   font-weight: bold;
   display: inline-flex;
@@ -869,7 +870,7 @@ $scala-sm-height: 22px;
   border: 0px;
   &:hover {
     color: rgba(255, 255, 255, 0.65);
-    background: linear-gradient(to right, $gator-orange, $gator-orange);
+    background: linear-gradient(to right, #34b25a, #40f175);
   }
   // font-size: $size-6;
   // margin-top: -24px;
@@ -881,7 +882,7 @@ $scala-sm-height: 22px;
   overflow: hidden;
   a {
     color: $white;
-    border-bottom: solid 2px $dark-pink;
+    border-bottom: solid 2px #52e09b;
     &:hover,
     &.is-active {
       color: $gray-text;
@@ -1126,7 +1127,7 @@ nav[data-toggle='toc'] {
   // color: lighten(#45535f, 10%);
   margin-top: -1rem;
   margin-bottom: 1.5rem;
-  color: $dark-pink;
+  color: #52e09b;
   font-size: 1.35rem;
   text-transform: uppercase;
   font-weight: 800 !important;
@@ -1146,7 +1147,7 @@ nav[data-toggle='toc'] {
       float: left;
       margin-top: 0.7em;
       margin-left: -2.25em;
-      color: $dark-pink;
+      color: #52e09b;
       font-weight: 900;
     }
     li {
@@ -1157,7 +1158,7 @@ nav[data-toggle='toc'] {
         &:hover,
         &.is-active {
           color: $white !important;
-          border-bottom: solid 2px $dark-pink !important;
+          border-bottom: solid 2px #52e09b !important;
         }
     }
     ul {
