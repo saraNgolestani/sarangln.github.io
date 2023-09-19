@@ -1,28 +1,28 @@
 
 refereed:
   pubs:
-  - title: Probing the Robustness of Pre-trained Language Models for Entity Matching
-    authors: Mehdi Akbarian Rastaghi, Ehsan Kamalloo and Davood Rafiei
-    year: 2022
-    month: October
-    abbrv: CIKM 
-    conference-full: "Proceedings of the 31st ACM International Conference on Information and Knowledge Management - CIKM '22"
-    location: Georgia, USA
+  - title: Multilabel Classification Using an Adaptive Threshold HydraNet for Multitask Learning 
+    authors: Sara Naseri Golestani, Henry Leung
+    year: 2023
+    month: June
+    abbrv: Frontiers 
+    conference-full: "Frontiers on Autonomous Systems and AI-enabled Software Systems Jan 2023  - Frontiers '23"
+    location: 
   
-  - title: Geo-Enabled Business Process Modeling
-    authors: Behshid Behkamal Asef Pourmasoumi, Mehdi Akbarian Rastaghin, Hamid Reza Motahari-Nezhad, Mohammad Allahbakhsh and Issa Najafi
+  - title: Robust Real-time Magnetic-based Object Localization to Sensor’s Fault Using Recurrent Neural Network
+    authors: Sara Naseri Golestani, Hamed Rafiei, Mohammad-R Akbarzadeh-T and Alireza Akbarzadeh-T
     year: 2020
-    month: September
-    abbrv: BPM 
-    conference-full: "18th Int. Conference on Business Process Management - BPM 2020"
-    location: Sevilla, Spain
+    month: May
+    abbrv: ICCKE
+    conference-full: "International Conference on Computer and Knowledge Engineering  - ICCKE 2020"
+    location: 
 
-  - title: Meeting of Events and Evidence on the Map
-    authors: Mehdi Akbarian-Rastaghi, Behshid Behkamal and Asef Pourmasoumi
+  - title: Magnetic-based Localization Using Artificial Neural Networks. 
+    authors: Sara Naseri Golestani, H. Rafiei, A. Samadi, H. Hafiz, A. NaddafShargh, M. Akbarzadeh-T,and A. Akbarzadeh.
     year: 2018
     month: August
-    abbrv: KDD
-    conference-full: "KDD ACM"
+    abbrv: CFIS
+    conference-full: "The 7th joint Congress of Fuzzy and Intelligent Systems 2019"
     location: London, England
 
 # workshops:
