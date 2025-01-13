@@ -1,12 +1,12 @@
 
 refereed:
   pubs:
-  - title: Multilabel Classification Using an Adaptive Threshold HydraNet for Multitask Learning 
-    authors: Sara Naseri Golestani, Henry Leung
-    year: 2023
-    month: June
-    abbrv: Frontiers 
-    conference-full: "Frontiers on Autonomous Systems and AI-enabled Software Systems Jan 2023  - Frontiers '23"
+  - title: Hydra-Mask-RCNN An Adaptive HydraNet Architecture for Unmanned Aerial Vehicle Object Detection 
+    authors: Sara Naseri Golestani; Mahdi SadeghiBakhi; King Fai Ma; Henry Leung
+    year: 2024
+    month: Nov
+    abbrv: IEEE
+    conference-full: "IEEE Open Journal of Instrumentation and Measurement"
     location: 
   
   - title: Robust Real-time Magnetic-based Object Localization to Sensor’s Fault Using Recurrent Neural Network
